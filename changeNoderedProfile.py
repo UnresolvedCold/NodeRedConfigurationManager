@@ -56,7 +56,7 @@ def OptionPicker():
 
     while x < 0 or x >= n:
         ShowAllAvailable()
-        input_label = f"Choose the number to activate [0, {n-1}] or c to cancel: "
+        input_label = f"To activate a setting choose [0, {n-1}] or c to cancel: "
         x = input(input_label)
         if x == "c":
             exit()
